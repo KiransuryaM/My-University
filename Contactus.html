@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        .container1{
+               background-color:white;
+                height: 600px;
+                width: 520px;
+                margin-left: 13cm;
+                margin-top: 2cm;
+                border : 1px solid black;
+                transition: 0.5s all ease-in-out;
+                border-radius: 20px;
+        }
+        h1{
+                margin-top: 10px;
+                margin-left: 5cm;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        p{
+                margin-left: 4.7cm;
+                font-size: 21px;
+        }
+        .lname{
+                 margin-left: 40px;
+                 width: 200px;
+                 height : 50px;
+                 border: 3px solid cadetblue;
+        }
+        .fname{
+                 margin-left: 20px;
+                 width: 200px;
+                 height : 50px;
+                 border: 3px solid cadetblue;
+        }
+        .uname{
+                margin-left: 20px;
+                 width: 450px;
+                 height : 50px;
+                 border: 3px solid cadetblue;
+        }
+        .emad{
+                margin-left: 20px;
+                 width: 450px;
+                 height : 50px;
+                 border: 3px solid cadetblue;
+        }
+        .pass{
+                margin-left: 20px;
+                 width: 450px;
+                 height : 50px;
+                 border: 3px solid cadetblue;
+        }
+        ::placeholder{
+                        
+                        font-size: 20px;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .tick{
+               margin:0%;
+        }
+        .box{
+               width : 20px;
+               height: 30px;
+               margin-left: 20px;
+               margin-top: 10px;
+        }
+        form{
+                  font-size: 25px;
+        
+        }
+        .sub{
+                margin-left: 5cm;
+                width:100px;
+                height:50px;
+        }
+        body{
+                 background-color: cadetblue;
+        }
+    
+     .sub{
+             background-color: dodgerblue;
+             color: antiquewhite;
+             font-size: medium;
+             border: 0cm;
+             transition: 0.5s all ease-in-out;
+     }
+     .sub:hover{
+        transform: scale(1.1);
+     }
+     .navbar{
+             height : 100px;   
+      }
+      .carousel-item {
+                      height:800px;
+      }
+   .footer{
+              background-color:deepskyblue;
+              color:white;
+              font-size: 20px;
+              height : 300px;
+   }
+   p{
+       font-size: larger;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   .instagram{
+                  width : 50px;
+                  height: 40px;
+                  margin-left: 12cm;
+                  transition: 0.5s all ease-in-out;
+   }
+   .instagram:hover{
+           transform: scale(1.4);
+   }
+   .facebook{
+                  width : 50px;
+                  height: 40px;
+                  margin-left: 23cm;
+                  transition: 0.5s all ease-in-out;
+   } 
+   .facebook:hover{
+           transform: scale(1.4);
+   }
+   .name{
+             margin-left: 13cm;
+             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   .name2{
+             margin-left: 23cm;
+             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   .nav-link{
+                font-size: 17px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: darkblue;
+                font-stretch: extra-expanded;
+                font-style: oblique;
+   }
+   span{
+           font-size: 24px;
+   }
+    </style>
+</head>
+<body>
+        
+                <div class = "row">
+                    <div class = "col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+                <a class="navbar-brand" href="index.html"><img src = "images/collegelogo.jpg" alt = "brand" width = "100" height = "50"></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html" target = "_blank">Home</a>
+                    </li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                    <li class="nav-item">
+                      <a class="nav-link" href="AboutUs.html" target = "_blank">About Us</a>
+                    </li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                    <li class="nav-item">
+                      <a class="nav-link" href="Contactus.html" target = "_blank">Contact Us</a>
+                    </li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                    <li class="nav-item">
+                      <a class="nav-link" href="Services.html" target = "_blank">Services</a>
+                    </li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                    <li class="nav-item">
+                      <a class="nav-link" href="Courses.html" target = "_blank">Courses Offered</a>
+                    </li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                  </ul>  &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            
+                </div>
+              </nav> 
+                    </div>
+                </div> 
+    <div class = "container1">
+         <h1> Register </h1> 
+         <p> Full out this form </p>
+        <form>
+           <input type = "text" placeholder="First Name" class = "fname"> 
+           <input type = "text" placeholder="Last Name" class = "lname"> <br> <br>  
+           <input type = "text" placeholder="User Name" class = "uname"> <br> <br> 
+           <input type = "text" placeholder="Email Address" class = "emad"> <br> <br>
+           <input type = "password" placeholder="New Password" class = "pass"> <br> 
+           <input type = "checkbox" class = "box"> <span>Guarantee that entered details are correct</span><br> <br>
+           <input type = "submit" value = "SUBMIT" class = "sub"> 
+        </form>
+    </div>
+</body>
+</html>
