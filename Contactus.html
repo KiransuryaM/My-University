@@ -10,7 +10,7 @@
     <style>
         .container1{
                background-color:white;
-                height: 589px;
+                height: 550px;
                 width: 520px;
                 margin-left: 13cm;
                 margin-top: 1.1cm;
@@ -142,21 +142,28 @@
    .nav-link{
                 font-size: 17px;
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                color: darkblue;
                 font-stretch: extra-expanded;
                 font-style: oblique;
+                color: white;
+                margin-left: 1.5cm;
+   }
+   .btn{
+           margin-left: 5.4cm;
    }
    span{
            font-size: 24px;
    }
     </style>
+    <script>
+        
+    </script>
 </head>
 <body>
         
                 <div class = "row">
                     <div class = "col-md-12">
             <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-                <a class="navbar-brand" href="index.html"><img src = "images/collegelogo.jpg" alt = "brand" width = "100" height = "50"></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <a class="navbar-brand" href="index.html"><img src = "images/collegelogo.jpg" alt = "brand" width = "100" height = "50">Presidency University</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -187,14 +194,14 @@
     <div class = "container1">
          <h1> Register </h1> 
          <p> Full out this form </p>
-        <form>
+        <form action="thankyou.html">
            <input type = "text" placeholder="First Name" class = "fname" required> 
            <input type = "text" placeholder="Last Name" class = "lname" required> <br> <br>  
-           <input type = "text" placeholder="User Name" class = "uname" required> <br> <br> 
-           <input type = "text" placeholder="Email Address" class = "emad" required> <br> <br>
-           <input type = "password" placeholder="New Password" class = "pass" required> <br> 
-           <input type = "checkbox" class = "box" required> <span>Guarantee that entered details are correct</span><br> <br>
-           <input type = "submit" value = "SUBMIT" class = "sub"> 
+           <input type = "text" placeholder="Surname" class = "uname" required> <br> <br> 
+           <input type = "email" placeholder="Email Address" class = "emad" required> <br> <br>
+           <input type = "number"  placeholder="Contact Number" class = "pass" name = "contact" required> <br> 
+           <input type = "checkbox" class = "box" required> <span>Guarantee that entered details are correct</span><br> 
+           <input type = "submit" value = "SUBMIT" class = "btn btn-danger"> 
         </form>
     </div>
 </body>
