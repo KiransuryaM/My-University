@@ -8,70 +8,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <style>
-        h1{
-              text-align: center;
-              font-family: 'Lobster',cursive;
-              height: 60px;
-              margin-top: 0.6cm;
-              margin-left: 1.1cm;
-              width:1450px;
-        }
-        h1:hover{
-                  border-left: 5px solid yellow;
-                  border-bottom: 5px solid yellow;
-                  border-top: 5px solid white;
-                  border-right:  5px solid white;
-        }
-        .nav{
-               float: left;
-               background-color: beige;
-               height: 520px;
-               width: 200px;
-               margin-top: 1cm;
-        }
-        .nav:hover{
-                   border-left: 7px solid black;
-                   border-bottom: 7px solid darkslateblue;
-                   border-top: 7px solid black;
-                   border-right: 7px solid darkslateblue;
-        }
-        .frame{
-               float: right;
-               margin-left: 1cm;
-        }
-        a{
-              text-decoration: none;
-              margin-left: 20px;
-              font-size: larger;
-              font-family: cursive;
-        }
-        a:hover{
-                  text-decoration: underline;
-        }
-        iframe{
-                  border: 3px solid black;
-                  width:950px;
-                  height: 600px;
-                  margin-left: 2cm;
-                  margin-top: 1cm;
-        }
-        iframe:hover{
-                   border-left: 14px solid orange;
-                   border-bottom: 14px solid khaki;
-                   border-top: 14px solid orange;
-                   border-right: 14px solid khaki;
-        }
-        .hos{
-               margin-left: 40px;
-               margin-bottom: 0%;
-        }
+    
+  .nav-link{
+            margin-left: 1cm;
+            color:black;
+            font-size: 20px;
+            font-family:cursive;
+            font-weight: 600;
+  }
+  .nav-link:hover{
+       color:aqua;
+
+  }
+       body{
+              background-color: gray;
+       }
+      .cname{
+            margin-bottom: 0%;
+            color:blue;
+            margin-left: 10px;
+      }
+      .cname:hover{
+             text-decoration:underline black;
+      }
+      img{
+            margin-left: 60px;
+      }
+      .heading{
+                font-size: 55px;
+                margin-left: 14cm;
+                color:white;
+                margin-top: 1.3cm;
+                font-weight: 800;
+                font-family:cursive;
+      }
     </style>
 </head>
-<body class = "bg-info">
+<body>
     <div class = "row">
         <div class = "col-md-12">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-    <a class="navbar-brand" href="index.html"><img src = "images/collegelogo.jpg" alt = "brand" width = "100" height = "50"></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html"><img src = "images/collegelogo.jpg" alt = "brand" width = "100" height = "50"><p class = "cname">PRESIDENCY UNIVERSITY </p></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -99,22 +76,6 @@
     </nav> 
         </div>
     </div> 
-     <h1 class = "text-white bg-primary"> Services Offered</h1> <br> 
-     <div class = "container">
-        <div class = "nav">
-            <a href = "library.html" target = "frame1">Library</a>
-            <a href = "projector.html" target = "frame1">Projectors</a> 
-            <a href = "canteen.html" target = "frame1">Canteen</a>
-            <a href = "medical.html" target = "frame1">Medical Facilities</a>  
-            <a href = "placements.html" target = "frame1">Placements</a>  
-            <a href = "abroad.html" target = "frame1">Abroad Studies</a> 
-            <a href = "hostel.html" target = "frame1" class = "hos">Hostel</a>  
-        </div>
-        <div class = "frame">
-           <iframe src = "Frame.html"  name = "frame1">
-             
-           </iframe>
-        </div>
-     </div>
+    <p class = "heading">OUR SERVICES</p>
 </body>
 </html>
